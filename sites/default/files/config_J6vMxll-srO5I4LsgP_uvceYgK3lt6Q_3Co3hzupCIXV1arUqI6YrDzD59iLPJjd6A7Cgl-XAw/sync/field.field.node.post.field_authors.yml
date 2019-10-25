@@ -1,0 +1,28 @@
+uuid: a5923e30-16f3-46ed-a4df-aa45a169a148
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_authors
+    - node.type.post
+id: node.post.field_authors
+field_name: field_authors
+entity_type: node
+bundle: post
+label: Authors
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: true
+    filter:
+      type: _none
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference
