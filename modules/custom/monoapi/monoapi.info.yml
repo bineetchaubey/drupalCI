@@ -1,0 +1,5 @@
+name: monoapi
+description: test mono api modules
+type: module
+core: 8.x
+package: monoapi

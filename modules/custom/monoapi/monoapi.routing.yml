@@ -1,0 +1,7 @@
+monoapi.settings:
+  path: 'admin/structure/monoapi/settings'
+  defaults:
+    _form: '\Drupal\monoapi\Form\MonoapiSettingsForm'
+    _title: 'example'
+  requirements:
+    _permission: 'administer site configuration'
